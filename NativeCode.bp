@@ -26,6 +26,7 @@ cc_defaults {
         "-Wall",
         "-Wextra",
         "-Werror",
+        "-O3",
     ],
     cppflags: ["-DU_USING_ICU_NAMESPACE=0"],
 
@@ -122,6 +123,7 @@ cc_defaults {
         "-Wno-parentheses-equality",
         "-Wno-constant-logical-operand",
         "-Wno-sometimes-uninitialized",
+        "-O3",
     ],
 
     shared_libs: [
